@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  operationsgateway-project:
+    container_name: operationsgateway-project_container
+    build: .
+    volumes:
+      - ./src:/operationsgateway-project-run/src
+      - ./public:/operationsgateway-project-run/public
+    ports:
+      - 3000:3000
+    environment:
+      - WATCHPACK_POLLING=true
+    restart: on-failure
