@@ -55,10 +55,8 @@ export default function Home() {
       >
         <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
           {appBarLogo && (
-            <Box sx={{ display: 'flex', alignItems: 'center', width: '122px' }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={appBarLogo} alt={appBarLogoAlt} width="122px" />
-            </Box>
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={appBarLogo} alt={appBarLogoAlt} height="24px" />
           )}
           <Stack
             direction="row"
@@ -382,9 +380,17 @@ export default function Home() {
           </Box>
 
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Users can apply built-in functions to columns — such as math
-            operations or waveform transformations — to create virtual data
-            channels that appear in the main table.
+            Users can apply built-in{' '}
+            <Link
+              href="https://ral-facilities.github.io/operationsgateway-api/#functions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              functions
+            </Link>{' '}
+            to columns — such as mathematical operations or waveform
+            transformations — to create virtual data channels that appear in the
+            main table.
           </Typography>
 
           <Typography variant="body1" sx={{ mb: 2 }}>

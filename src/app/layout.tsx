@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Operations Gateway',
   description:
     'Operations Gateway is a centralised platform for exploring, inspecting, and exporting operational data. It supports scalar values, images, waveforms, and vector data with dynamic visualisation tools and session-based workflows, enabling repeatable system insight and analysis.',
+  icons: {
+    icon: '/operationsgateway-project/favicon.svg',
+  },
 };
 
 export default function RootLayout({
