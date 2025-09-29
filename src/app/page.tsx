@@ -443,7 +443,7 @@ export default function Home() {
                 primary={
                   <Typography variant="body1">
                     <Link
-                      href="https://github.com/ral-facilities/inventory-management-system"
+                      href="https://github.com/ral-facilities/operationsgateway"
                       target="_blank"
                       rel="noopener"
                       fontWeight="bold"
