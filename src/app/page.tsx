@@ -270,9 +270,7 @@ export default function Home() {
             </Box>
             <Typography
               variant="caption"
-              display="block"
-              align="center"
-              sx={{ mt: 1 }}
+              sx={{ mt: 1, display: 'block', align: 'center' }}
             >
               <strong>Main Data Table:</strong> Shows timestamped records and
               selected data channels across multiple columns. Each column
@@ -308,9 +306,7 @@ export default function Home() {
             </Box>
             <Typography
               variant="caption"
-              display="block"
-              align="center"
-              sx={{ mt: 1 }}
+              sx={{ mt: 1, display: 'block', align: 'center' }}
             >
               <strong>Image Viewer:</strong> Opens greyscale or floating point
               images at full resolution with visual enhancements for clearer
@@ -340,9 +336,7 @@ export default function Home() {
             </Box>
             <Typography
               variant="caption"
-              display="block"
-              align="center"
-              sx={{ mt: 1 }}
+              sx={{ mt: 1, display: 'block', align: 'center' }}
             >
               <strong>Plotting Window:</strong> Visualises relationships between
               scalar data channels over time or across events.
@@ -370,9 +364,7 @@ export default function Home() {
             </Box>
             <Typography
               variant="caption"
-              display="block"
-              align="center"
-              sx={{ mt: 1 }}
+              sx={{ mt: 1, display: 'block', align: 'center' }}
             >
               <strong>Vector/Bar Chart Viewer:</strong> Presents vector data
               clearly using labelled bars and unit information.
@@ -422,7 +414,7 @@ export default function Home() {
                       href="https://github.com/ral-facilities/operationsgateway-api"
                       target="_blank"
                       rel="noopener"
-                      fontWeight="bold"
+                      sx={{ fontWeight: 'bold' }}
                       underline="hover"
                     >
                       OperationsGateway API
@@ -446,7 +438,7 @@ export default function Home() {
                       href="https://github.com/ral-facilities/operationsgateway"
                       target="_blank"
                       rel="noopener"
-                      fontWeight="bold"
+                      sx={{ fontWeight: 'bold' }}
                       underline="hover"
                     >
                       OperationsGateway UI
@@ -465,7 +457,7 @@ export default function Home() {
                       href="https://github.com/ral-facilities/scigateway"
                       target="_blank"
                       rel="noopener"
-                      fontWeight="bold"
+                      sx={{ fontWeight: 'bold' }}
                       underline="hover"
                     >
                       SciGateway UI
@@ -489,9 +481,7 @@ export default function Home() {
           />
           <Typography
             variant="caption"
-            display="block"
-            align="center"
-            sx={{ mt: 1 }}
+            sx={{ mt: 1, display: 'block', align: 'center' }}
           >
             Operations Gateway System Architecture
           </Typography>
